@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenQLProject", "OpenQLProj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQLProject2", "OpenQLProject2\OpenQLProject2.csproj", "{A658D18E-CEC7-41DA-99CE-8AC20130E5CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQLProject3", "OpenQLProject3\OpenQLProject3.csproj", "{BF733115-E11E-4EF9-A582-E79EEE7D53DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,12 @@ Global
 		{A658D18E-CEC7-41DA-99CE-8AC20130E5CA}.Release|Any CPU.ActiveCfg = Release|x86
 		{A658D18E-CEC7-41DA-99CE-8AC20130E5CA}.Release|x86.ActiveCfg = Release|x86
 		{A658D18E-CEC7-41DA-99CE-8AC20130E5CA}.Release|x86.Build.0 = Release|x86
+		{BF733115-E11E-4EF9-A582-E79EEE7D53DA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BF733115-E11E-4EF9-A582-E79EEE7D53DA}.Debug|x86.ActiveCfg = Debug|x86
+		{BF733115-E11E-4EF9-A582-E79EEE7D53DA}.Debug|x86.Build.0 = Debug|x86
+		{BF733115-E11E-4EF9-A582-E79EEE7D53DA}.Release|Any CPU.ActiveCfg = Release|x86
+		{BF733115-E11E-4EF9-A582-E79EEE7D53DA}.Release|x86.ActiveCfg = Release|x86
+		{BF733115-E11E-4EF9-A582-E79EEE7D53DA}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
