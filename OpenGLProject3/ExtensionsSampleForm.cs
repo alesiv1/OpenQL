@@ -253,7 +253,7 @@ namespace ExtensionsSample
 
             //  Load decal texture
             decalImage = new Texture();
-            decalImage.Create(gl, @"C:\Users\aner9\source\repos\OpenQLProject\OpenQLProject3\water.bmp");
+            decalImage.Create(gl, @"C:\Users\aner9\source\repos\OpenQLProject\OpenGLProject3\water.bmp");
             decalImage.Bind(gl);
             gl.TexParameter(OpenGL.GL_TEXTURE_2D, OpenGL.GL_TEXTURE_MAG_FILTER, OpenGL.GL_LINEAR);
             gl.TexParameter(OpenGL.GL_TEXTURE_2D, OpenGL.GL_TEXTURE_MIN_FILTER, OpenGL.GL_LINEAR);
@@ -262,7 +262,7 @@ namespace ExtensionsSample
 
             //  Load normal map
             normalMap = new Texture();
-            normalMap.Create(gl, @"C:\Users\aner9\source\repos\OpenQLProject\OpenQLProject3\fish.bmp");
+            normalMap.Create(gl, @"C:\Users\aner9\source\repos\OpenQLProject\OpenGLProject3\fish.bmp");
             normalMap.Bind(gl);
             gl.TexParameter(OpenGL.GL_TEXTURE_2D, OpenGL.GL_TEXTURE_MAG_FILTER, OpenGL.GL_LINEAR);
             gl.TexParameter(OpenGL.GL_TEXTURE_2D, OpenGL.GL_TEXTURE_MIN_FILTER, OpenGL.GL_LINEAR);

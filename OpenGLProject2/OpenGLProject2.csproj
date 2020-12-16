@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BF733115-E11E-4EF9-A582-E79EEE7D53DA}</ProjectGuid>
+    <ProjectGuid>{A658D18E-CEC7-41DA-99CE-8AC20130E5CA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenQLProject3</RootNamespace>
-    <AssemblyName>OpenQLProject3</AssemblyName>
+    <RootNamespace>OpenGLProject2</RootNamespace>
+    <AssemblyName>OpenGLProject2</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -42,28 +42,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SharpGL, Version=2.3.0.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\OpenQLProject\Dependencies\SharpGL.dll</HintPath>
+    <Reference Include="SharpGL">
+      <HintPath>..\OpenGLProject\Dependencies\SharpGL.dll</HintPath>
     </Reference>
-    <Reference Include="SharpGL.SceneGraph, Version=2.3.0.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\OpenQLProject\Dependencies\SharpGL.SceneGraph.dll</HintPath>
+    <Reference Include="SharpGL.SceneGraph">
+      <HintPath>..\OpenGLProject\Dependencies\SharpGL.SceneGraph.dll</HintPath>
     </Reference>
-    <Reference Include="SharpGL.WinForms, Version=2.3.0.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\OpenQLProject\Dependencies\SharpGL.WinForms.dll</HintPath>
+    <Reference Include="SharpGL.WinForms">
+      <HintPath>..\OpenGLProject\Dependencies\SharpGL.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Design">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -74,19 +64,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExtensionsSampleForm.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExtensionsSampleForm.Designer.cs">
-      <DependentUpon>ExtensionsSampleForm.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Torus.cs" />
-    <Compile Include="TorusVertex.cs" />
-    <Compile Include="VertexExtensions.cs" />
-    <EmbeddedResource Include="ExtensionsSampleForm.resx">
-      <DependentUpon>ExtensionsSampleForm.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -108,10 +95,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fish.bmp" />
-    <Content Include="water.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
