@@ -7,9 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SharpGL" Version="3.1.1" />
-    <PackageReference Include="SharpGL.SceneGraph" Version="3.1.1" />
-    <PackageReference Include="SharpGL.WinForms" Version="3.1.1" />
+    <Reference Include="SharpGL">
+      <HintPath>Dependencies\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph">
+      <HintPath>Dependencies\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms">
+      <HintPath>Dependencies\SharpGL.WinForms.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
